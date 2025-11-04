@@ -18,9 +18,31 @@ body {
     flex-direction: row;
 }
 
+.main {
+    background-color:#f5f3ec ;
+}
 .header{
     height: 33vh;
     background-color: #f5f3ec;
+    
+    
+}
+
+.header h1{
+    max-width: 970px;
+    margin-top: 
+    margin-left: 3rem;
+    
+    
+}
+.formdiv {
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px 0 lightgray;
+}
+
+.formdiv h1 {
+    
+    margin-left: 3rem;
 }
 
 .sign-up {
@@ -28,13 +50,16 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 3em;
-    margin-top: 3em;
+    margin-left: 3rem;
     
 }
 
+
 .sign-up p {
     flex: 1 1 50%;
+    display: inline-block;
+    width: 50%;
+    
     
     
 }
@@ -43,6 +68,10 @@ body {
 p
 label {
     display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: darkslategrey;
+    margin-bottom: 4px;
 }
 
 .sign-up
@@ -50,9 +79,13 @@ p
 input {
    height: 40px;
    width: 300px;
+   font-size: 20px;
+   padding: 10px;
 }
+
 
 .footer {
     height: 33vh;
     background-color: #f5f3ec;
+    box-shadow: inset 0 5px 5px 0 lightgray;
 }
