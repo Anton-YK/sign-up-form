@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="sidebar"></div>
+    <div class="sidebar">
+        <div class="logo">
+            <h1>YAK</h1>
+        </div>
+    </div>
     <div class="main">
         <div class="header">
             <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br> Sign up <em>now</em> to get started.
@@ -20,18 +24,18 @@
         </div>
         <div class="formdiv">
             <h1>Let's do this!</h1>
-            <form class="sign-up" action="">
+            <form class="sign-up" id="sign-up" action="">
                  <p>
                     <label for="first-name">FIRST NAME</label>
-                    <input type="text" name="first-name" id="first-name">
+                    <input type="text" name="first-name" id="first-name" required/>
                 </p>
                 <p>
                     <label for="last-name">LAST NAME</label>
-                    <input type="text" name="last-name" id="last-name">
+                    <input type="text" name="last-name" id="last-name" required />
                 </p>
                 <p>
                     <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" required />
                 </p>
                 <p>
                     <label for="phone">PHONE NUMBER</label>
@@ -39,16 +43,16 @@
                 </p>
                 <p>
                     <label for="pword">PASSWORD</label>
-                    <input type="password" name="pword" id="pword">
+                    <input type="password" name="pword" id="pword" required />
                 </p>
                 <p>
                     <label for="conf-pword">CONFIRM PASSWORD</label>
-                    <input type="password" name="conf-pword" id="conf-pword">
+                    <input type="password" name="conf-pword" id="conf-pword" required />
                 </p>
             </form>
         </div>
         <div class="footer">
-            <button class="createacc">Create Account</button>
+            <button  type="submit" class="createacc" form="sign-up">Create Account</button>
             <p>Already have an account? <a href="">Log in</a></p>
         </div>
 
